@@ -46,19 +46,19 @@ namespace Vehicle
         }
 
 
-        public void OwnerNameset(string OwnerName)
+        public void setOwnerName(string OwnerName)
         {
             this.OwnerName = OwnerName;
         }
-        public void VehicleTypeset(string TypeofVehicle)
+        public void setVehicleType(string TypeofVehicle)
         {
             this.TypeofVehicle = TypeofVehicle;
         }
-        public void Cylinderset(int Cylinder)
+        public void setCylinder(int Cylinder)
         {
             this.Cylinder = Cylinder;
         }
-        public void Priceset(double Price)
+        public void setPrice(double Price)
         {
             this.Price = Price;
         }
